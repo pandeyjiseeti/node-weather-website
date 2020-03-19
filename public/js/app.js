@@ -15,7 +15,7 @@ weatherForm.addEventListener('submit', (e) => {
             }
             else {
                 errorMessage.textContent = data.location
-                fetchMessage.textContent = data.forecast.summary + ' It is currently ' + data.forecast.currentTemp + ' degrees out. There is a ' + data.forecast.precipProbability + '% chance of rain'
+                fetchMessage.textContent = data.forecast
             }
         })
     })
